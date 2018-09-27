@@ -1,1 +1,1 @@
-# OpenCAE_symposium_2018
+# tkoyama010_OpenCAE_journal_and_symposium
