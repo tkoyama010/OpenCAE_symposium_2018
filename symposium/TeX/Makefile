@@ -15,7 +15,7 @@ PANDOC=pandoc
 RM= rm -f
 
 ##  Filename
-TITLE = template_OpenCAE_symposium
+TITLE = 2018_OpenCAE_symposium
 
 ## Class file
 STY = ../../style/ltjoc.cls
