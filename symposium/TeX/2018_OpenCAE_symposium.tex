@@ -228,6 +228,14 @@ Savannahのプロジェクトの開発に参加するには図XXXの"New User"�
   \shuser{devlname}
   \shline{} {sudo aptitude install libtool automake}
 \end{shbox}
+また、追加として以下のパッケージをインストールします。
+\begin{itemize}
+  \item \texttt{libopenblas-dev} - Optimized BLAS (linear algebra) library (development files)
+  \footnote{
+    \texttt{openblas}を使用すると通常の\texttt{blas}より高速になるとの指摘を\href{https://twitter.com/michioga}{@michioga}氏よりいただきました。
+    (第14回オープンCAE勉強会@関東（構造など）)
+  }
+\end{itemize}
 
 \section{国際化L20Nと地域化L10N}
 \section{\href{http://www.sphinx-doc.org/en/master}{SPHINX}の利用方法}
