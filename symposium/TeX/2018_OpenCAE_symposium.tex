@@ -193,6 +193,13 @@ Savannahのプロジェクトの開発に参加するには図XXXの"New User"�
   \shline{}{git checkout devel-name-subject}
 \end{shbox}
 ここで、\texttt{name}は開発者の名前、\texttt{subject}は開発内容としてください。
+\footnote{
+プロジェクトへの貢献方法はプログラムの新機能のパッチ作成だけではありません。
+ドキュメントを読んでいる際に気づいたTypo(打ち間違い)の修正も大切な貢献です。
+筆者はTypoの修正のために\texttt{fixfixmisspell}という\texttt{branch}を作成したころ、Typo修正用の公式ブランチとして採用されました。
+詳細は、 \href{http://getfem.org/project/contribute.html}{http://getfem.org/project/contribute.html} の"Specific branch for doc improvements and typo-fixes"を参照してください。
+自分の小さな提案が採用されることもOSSへの貢献の面白さかと思います。
+}
 修正後コミットをしてブランチに\texttt{push}します。
 \begin{shbox}
   \shuser{develname}
@@ -204,7 +211,6 @@ Savannahのプロジェクトの開発に参加するには図XXXの"New User"�
 \emph{誤って}\texttt{master}\emph{ブランチに}\texttt{push}\emph{しないように十分注意してください}!!!
 管理者から注意されて\texttt{revert}されるでしょう。
 
-\section{Typo修正によるプロジェクトへの貢献方法}
 \section{国際化L20Nと地域化L10N}
 \section{\href{http://www.sphinx-doc.org/en/master}{SPHINX}の利用方法}
 \section{\href{https://www.transifex.com}{Transifex}の利用方法}
