@@ -156,6 +156,12 @@ Savannah は、SourceForge.netと同じソフトウェアをベースとした�
   \shuser{username}
   \shline{}{git clone https://git.savannah.nongnu.org/git/getfem.git}
 \end{shbox}
+また、ソースからコンパイルする必要のない場合には以下のように\texttt{aptitude}(もしくは\texttt{apt})コマンドによりインストールすることも可能です。
+\begin{shbox}
+  \shuser{username}
+  \shline{}{sudo aptitude install python-getfem++ libgetfem++-dev}
+\end{shbox}
+これによりGetfem++のPythonインターフェースとライブラリがインストールされます。
 
 Savannahのプロジェクトの開発に参加するには図XXXの"New User"からユーザー登録が必要です。
 開発者としてプロジェクトに参加するには、管理者にメッセージを送信し参加を承認してもらう必要があります。
