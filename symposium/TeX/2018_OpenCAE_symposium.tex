@@ -235,7 +235,7 @@ GetFEM++プロジェクトでソースの変更を行う際にはGitで以下の
 \emph{誤って}\texttt{master}\emph{ブランチに}\texttt{push}\emph{しないように十分注意してください}!!!
 管理者から注意されて\texttt{revert}されるでしょう。
 
-\section{GetFEM++のコンパイル方法}
+\section{GetFEM++のコンパイルとテスト方法}
 \texttt{Ubuntu18.04}でコンパイルする場合について説明します。
 まずは、\texttt{getfem}のリポジトリ直下にある\texttt{autogen.sh}を実行します。
 実行には\texttt{libtoolize}と\texttt{automake}が必要になりますので先にインストールしてください。
@@ -243,14 +243,45 @@ GetFEM++プロジェクトでソースの変更を行う際にはGitで以下の
   \shuser{devlname}
   \shline{} {sudo aptitude install libtool automake}
 \end{shbox}
-また、追加として以下のパッケージをインストールします。
+また、コンパイルに使用するライブラリとして以下のパッケージをインストールします。
 \begin{itemize}
+  \item \texttt{libqhull-dev} - calculate convex hulls and related structures (development files)
+  \item \texttt{libmumps-dev} - Direct linear systems solver - parallel development files                  
+  \item \texttt{libmumps-ptscotch-dev} - Direct linear systems solver - PTScotch-version development files          
+  \item \texttt{libmumps-scotch-dev} - Direct linear systems solver - Scotch-version development files            
+  \item \texttt{libmumps-seq-dev} - Direct linear systems solver - non-parallel development files              
+  \item \texttt{liblapack-dev} - Library of linear algebra routines 3 - static version
   \item \texttt{libopenblas-dev} - Optimized BLAS (linear algebra) library (development files)
   \footnote{
     \texttt{openblas}を使用すると通常の\texttt{blas}より高速になるとの指摘を\href{https://twitter.com/michioga}{@michioga}氏よりいただきました。
     (第14回オープンCAE勉強会@関東（構造など）)
   }
 \end{itemize}
+さらに、PythonのインターフェースとしてPython2かPython3のScipyをインストールします。
+\begin{itemize}
+  \item \texttt{python-scipy} - scientific tools for Python
+  \item \texttt{python3-scipy} - scientific tools for Python 3
+\end{itemize}
+インストール後\texttt{./configure}をプロジェクトフォルダで実行して、Makefileを作成します。
+
+Python2の場合、
+\begin{shbox}
+  \shuser{develname}
+  \shline{}{./configure --with-pic}
+\end{shbox}
+Python3の場合、
+\begin{shbox}
+  \shuser{develname}
+  \shline{}{./configure --with-pic --enable-python3}
+\end{shbox}
+を実行します。
+
+Makefile作成後以下のコマンドでコンパイルとテストの実行をします。
+\begin{shbox}
+  \shuser{develname}
+  \shline{}{make \&\& make check}
+\end{shbox}
+筆者の環境では約1時間ほどでコンパイルとテストが完了しました。
 
 \section{国際化L20Nと地域化L10N}
 \section{\href{http://www.sphinx-doc.org/en/master}{SPHINX}の利用方法}
