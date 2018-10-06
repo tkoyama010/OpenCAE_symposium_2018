@@ -257,13 +257,19 @@ GetFEM++プロジェクトでソースの変更を行う際にはGitで以下の
     (第14回オープンCAE勉強会@関東（構造など）)
   }
 \end{itemize}
-さらに、PythonのインターフェースとしてPython2かPython3のScipyをインストールします。
+さらに、PythonのためのヘッダーファイルとスタテックライブラリScipyをインストールします。
+Python2の場合
 \begin{itemize}
+  \item \texttt{python-dev} - header files and a static library for Python (default)
   \item \texttt{python-scipy} - scientific tools for Python
-  \item \texttt{python3-scipy} - scientific tools for Python 3
 \end{itemize}
+Python3の場合
+\begin{itemize}
+  \item \texttt{python-dev} - header files and a static library for Python (default)
+  \item \texttt{python3-dev} - header files and a static library for Python (default)
+\end{itemize}
+をそれぞれインストールしてください。
 インストール後\texttt{./configure}をプロジェクトフォルダで実行して、Makefileを作成します。
-
 Python2の場合、
 \begin{shbox}
   \shuser{develname}
@@ -275,13 +281,12 @@ Python3の場合、
   \shline{}{./configure --with-pic --enable-python3}
 \end{shbox}
 を実行します。
-
 Makefile作成後以下のコマンドでコンパイルとテストの実行をします。
+著者の環境では約1時間ほどでコンパイルとテストが完了しました。
 \begin{shbox}
   \shuser{develname}
   \shline{}{make \&\& make check}
 \end{shbox}
-著者の環境では約1時間ほどでコンパイルとテストが完了しました。
 
 \section{国際化L20Nと地域化L10N}
 \section{\href{http://www.sphinx-doc.org/en/master}{SPHINX}の利用方法}
