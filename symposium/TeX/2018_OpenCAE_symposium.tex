@@ -288,8 +288,15 @@ Makefile作成後以下のコマンドでコンパイルとテストの実行を
   \shline{}{make \&\& make check}
 \end{shbox}
 
-\section{国際化L20Nと地域化L10N}
-\section{\href{http://www.sphinx-doc.org/en/master}{SPHINX}の利用方法}
+\section{\href{http://www.sphinx-doc.org/ja/stable/intl.html}{SPHINXによる翻訳作業}}
+GetFEM++のSPHINXドキュメントをコンパイルするためには\texttt{doc}/\texttt{sphinx}で以下のコマンドを実行します。
+\begin{shbox}
+  \shuser{develname}
+  \shline{}{make html (htmlを作成する場合)}
+  \shline{}{make pdf  (pdfを作成する場合)}
+\end{shbox}
+これにより\texttt{doc}/\texttt{sphinx}/\texttt{build}以下の\texttt{html}ディレクトリと\texttt{pdf}ディレクトリにドキュメントが作成されます。
+
 \section{\href{https://www.transifex.com}{Transifex}の利用方法}
 \section{translate-shellの利用方法}
 \section{GetFEM++の日本語キーワード}
