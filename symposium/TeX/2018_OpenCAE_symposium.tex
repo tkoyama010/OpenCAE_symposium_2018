@@ -167,7 +167,7 @@ Savannah は、SourceForge.netと同じソフトウェアをベースとした�
 %
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.1\textwidth]{fig/savannah-new-user.eps}
+\includegraphics[width=1.0\textwidth]{fig/savannah-new-user.eps}
 \caption{\href{https://savannah.gnu.org/account/register.php}{Savannahの新規ユーザ作成画面}}
 \label{fig:savannah-new-user}
 \end{figure}
@@ -201,6 +201,12 @@ Savannah は、SourceForge.netと同じソフトウェアをベースとした�
 \end{shbox}
 これにより\texttt{/home/develname/.ssh/id\textunderscore{}rsa.pub}にRSA公開鍵のファイルが作成されます。
 これを、Savannahに図YYYのように登録しておくと登録した認証鍵を持つPCに\texttt{clone}が可能になります。
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=1.0\textwidth]{fig/savannah-authorized-keys.eps}
+\caption{\href{https://savannah.gnu.org/account/register.php}{Savannahの新規ユーザ作成画面}}
+\label{fig:savannah-authorized-keys}
+\end{figure}
 変更を行う際にはGitで以下のようにブランチを作成する規約となっています。
 \begin{shbox}
   \shuser{develname}
