@@ -94,23 +94,23 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72px;line-height:1.25;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-     x="576.70001"
-     y="146.35954"
+     x="26.000002"
+     y="108.85954"
      id="text32"><tspan
        sodipodi:role="line"
        id="tspan30"
-       x="576.70001"
-       y="146.35954"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:'MigMix 1P';-inkscape-font-specification:'MigMix 1P';text-align:center;text-anchor:middle;fill:#44aa00;stroke-width:0.75">GetFEM++</tspan><tspan
+       x="26.000002"
+       y="108.85954"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:'MigMix 1P';-inkscape-font-specification:'MigMix 1P';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75">GetFEM++</tspan><tspan
        sodipodi:role="line"
-       x="576.70001"
-       y="271.35956"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:'MigMix 1P';-inkscape-font-specification:'MigMix 1P';text-align:center;text-anchor:middle;fill:#44aa00;stroke-width:0.75"
+       x="26.000002"
+       y="233.85953"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:'MigMix 1P';-inkscape-font-specification:'MigMix 1P';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75"
        id="tspan34">ユーザードキュメント</tspan><tspan
        sodipodi:role="line"
-       x="576.70001"
-       y="368.77954"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'MigMix 1P';-inkscape-font-specification:'MigMix 1P';text-align:center;text-anchor:middle;fill:#44aa00;stroke-width:0.75"
+       x="26.000002"
+       y="331.27954"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'MigMix 1P';-inkscape-font-specification:'MigMix 1P';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75"
        id="tspan36">リリース5.3</tspan></text>
   <text
      xml:space="preserve"
