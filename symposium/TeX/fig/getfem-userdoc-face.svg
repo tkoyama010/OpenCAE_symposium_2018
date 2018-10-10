@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -101,16 +101,16 @@
        id="tspan30"
        x="26.000002"
        y="108.85954"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:'MigMix 1P';-inkscape-font-specification:'MigMix 1P';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75">GetFEM++</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75">GetFEM++</tspan><tspan
        sodipodi:role="line"
        x="26.000002"
        y="233.85953"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:'MigMix 1P';-inkscape-font-specification:'MigMix 1P';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75"
        id="tspan34">ユーザードキュメント</tspan><tspan
        sodipodi:role="line"
        x="26.000002"
        y="331.27954"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'MigMix 1P';-inkscape-font-specification:'MigMix 1P';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75"
        id="tspan36">リリース5.3</tspan></text>
   <text
      xml:space="preserve"
