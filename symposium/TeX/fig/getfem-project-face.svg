@@ -81,28 +81,28 @@
   </g>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:1.25;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:1.25;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.75;"
      x="25.697924"
      y="97.567207"
      id="text106"><tspan
        sodipodi:role="line"
        x="25.697924"
        y="97.567207"
-       style="font-size:100px;stroke-width:0.75"
+       style="font-size:100px;stroke-width:0.75;fill:#008000;"
        id="tspan108">GetFEM++</tspan><tspan
        sodipodi:role="line"
        x="25.697924"
        y="222.5672"
-       style="font-size:100px;stroke-width:0.75"
+       style="font-size:100px;stroke-width:0.75;fill:#008000;"
        id="tspan20">プロジェクト叙述</tspan><tspan
        sodipodi:role="line"
        x="25.697924"
        y="347.5672"
-       style="font-size:50px;stroke-width:0.75"
+       style="font-size:50px;stroke-width:0.75;fill:#008000;"
        id="tspan22">リリース5.3</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.9998703px;line-height:1.25;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.74999869"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.9998703px;line-height:1.25;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.74999869;"
      x="1171.0363"
      y="1565.3982"
      id="text45-1"
@@ -111,10 +111,10 @@
        id="tspan43"
        x="1171.0363"
        y="1565.3982"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:39.99993134px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P Bold';text-align:end;text-anchor:end;stroke-width:0.74999869">Yves Renard, Julien Pommier, Konstantinos Poulios 著</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:39.99993134px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P Bold';text-align:end;text-anchor:end;stroke-width:0.74999869;fill:#008000;">Yves Renard, Julien Pommier, Konstantinos Poulios 著</tspan><tspan
        sodipodi:role="line"
        x="1171.0363"
        y="1655.3981"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:39.99993134px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P Bold';text-align:end;text-anchor:end;stroke-width:0.74999869"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:39.99993134px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P Bold';text-align:end;text-anchor:end;stroke-width:0.74999869;fill:#008000;"
        id="tspan47-5">Tetsuo Koyama 訳</tspan></text>
 </svg>

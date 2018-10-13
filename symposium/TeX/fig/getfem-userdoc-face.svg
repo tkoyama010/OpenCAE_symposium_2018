@@ -93,7 +93,7 @@
   </g>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72px;line-height:1.25;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72px;line-height:1.25;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.75;"
      x="26.000002"
      y="108.85954"
      id="text32"><tspan
@@ -101,20 +101,20 @@
        id="tspan30"
        x="26.000002"
        y="108.85954"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75">GetFEM++</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:start;text-anchor:start;fill:#008000;stroke-width:0.75;">GetFEM++</tspan><tspan
        sodipodi:role="line"
        x="26.000002"
        y="233.85953"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:start;text-anchor:start;fill:#008000;stroke-width:0.75;"
        id="tspan34">ユーザードキュメント</tspan><tspan
        sodipodi:role="line"
        x="26.000002"
        y="331.27954"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:start;text-anchor:start;fill:#008000;stroke-width:0.75;"
        id="tspan36">リリース5.3</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72px;line-height:1.25;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72px;line-height:1.25;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.75;"
      x="1171.0383"
      y="1565.4008"
      id="text45"><tspan
@@ -122,10 +122,10 @@
        id="tspan43"
        x="1171.0383"
        y="1565.4008"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P Bold';text-align:end;text-anchor:end;stroke-width:0.75">Yves Renard, Julien Pommier, Konstantinos Poulios 著</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P Bold';text-align:end;text-anchor:end;stroke-width:0.75;fill:#008000;">Yves Renard, Julien Pommier, Konstantinos Poulios 著</tspan><tspan
        sodipodi:role="line"
        x="1171.0383"
        y="1655.4008"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P Bold';text-align:end;text-anchor:end;stroke-width:0.75"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P Bold';text-align:end;text-anchor:end;stroke-width:0.75;fill:#008000;"
        id="tspan47">Tetsuo Koyama 訳</tspan></text>
 </svg>
