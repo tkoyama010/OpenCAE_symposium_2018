@@ -55,3 +55,6 @@ clean:
 
 distclean:
 	$(RM) $(LOG) $(AUX) $(LOG) $(BLG) $(OUT)
+
+2018_OpenCAE_symposium.md: 2018_OpenCAE_symposium.tex
+	pandoc $< -o $@
