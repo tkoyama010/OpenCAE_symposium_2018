@@ -57,7 +57,7 @@ GNU
 User”からユーザー登録が必要です。
 
 ![[Savannahの新規ユーザ作成画面](https://savannah.gnu.org/account/register.php)<span
-data-label="fig:savannah-new-user"></span>](fig/savannah-new-user.eps){width="100.00000%"}
+data-label="fig:savannah-new-user"></span>](fig/savannah-new-userpng){width="100.00000%"}
 
 開発者としてプロジェクトに参加するには、管理者にメッセージを送信し参加を承認してもらう必要があります。
 2018年10月現在の[GetFEM++](http://getfem.org)の管理者は [Konstantinos
@@ -77,7 +77,7 @@ Savannah](http://getfem.org/project/index.html)を参考にプロジェクトに
 登録可能な数は最大5個です。
 
 ![[Savannahの承認鍵の設定](https://savannah.gnu.org/my/admin/editsshkeys.php)<span
-data-label="fig:savannah-authorized-keys"></span>](fig/savannah-authorized-keys.eps){width="100.00000%"}
+data-label="fig:savannah-authorized-keys"></span>](fig/savannah-authorized-keyspng){width="100.00000%"}
 
 [GetFEM++](http://getfem.org)プロジェクトでソースの変更を行う際にはGitで以下のようにブランチを作成する規約となっています。
 
@@ -163,7 +163,7 @@ Makefile作成後以下のコマンドでコンパイルとテストの実行を
 
 ![[Sphinxによる翻訳のビジュアルなワークフロー](http://www.sphinx-doc.org/ja/stable/_images/translation.png)
 （[「国際化」](http://www.sphinx-doc.org/ja/stable/intl.html)より引用)<span
-data-label="fig:translation"></span>](fig/translation.eps){width="50.00000%"}
+data-label="fig:translation"></span>](fig/translationpng){width="50.00000%"}
 
 `sphinx-intl`のインストールは`pip`を使用して以下のように行います。
 
@@ -295,7 +295,7 @@ index 14377f9d..fcaf2b7c 100644
 翻訳の提案などはこちらのページで行うことができます。
 
 ![[GetFEM++5.3翻訳プロジェクト](https://www.transifex.com/getfem-doc/getfem-53-1/dashboard/)<span
-data-label="fig:transifex-getfem-5.3"></span>](fig/transifex-getfem-53.eps){width="100.00000%"}
+data-label="fig:transifex-getfem-5.3"></span>](fig/transifex-getfem-53png){width="100.00000%"}
 
 [Transifex](https://www.transifex.com)での翻訳結果を反映するためにはクライアントコマンド`tx`を使用します。
 `tx`コマンドは以下のようにインストールします。
@@ -319,9 +319,9 @@ APIキーを聞かれた際には[Transifex](https://www.transifex.com)のアカ
 50部を印刷し、頒布数は38部(内4部は挨拶用・2部はオープンCAE勉強会参加者様)でした。
 
 ![[サークルGetFEM++@技術書典5のブース](https://techbookfest.org/event/tbf05)<span
-data-label="fig:tecbookfest5-boose"></span>](fig/boose-1.eps "fig:"){width="25.00000%"}
+data-label="fig:tecbookfest5-boose"></span>](fig/boose-1png "fig:"){width="25.00000%"}
 ![[サークルGetFEM++@技術書典5のブース](https://techbookfest.org/event/tbf05)<span
-data-label="fig:tecbookfest5-boose"></span>](fig/boose-2.eps "fig:"){width="25.00000%"}
+data-label="fig:tecbookfest5-boose"></span>](fig/boose-2png "fig:"){width="25.00000%"}
 
 ブースには以下の方ような方がいらっしゃいました。
 
