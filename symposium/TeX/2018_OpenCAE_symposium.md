@@ -57,7 +57,7 @@ GNU
 User”からユーザー登録が必要です。
 
 ![[Savannahの新規ユーザ作成画面](https://savannah.gnu.org/account/register.php)<span
-data-label="fig:savannah-new-user"></span>](fig/savannah-new-userpng){width="100.00000%"}
+data-label="fig:savannah-new-user"></span>](https://github.com/tkoyama010/tkoyama010_OpenCAE_journal_and_symposium/edit/master/symposium/TeX/fig/savannah-new-userpng){width="100.00000%"}
 
 開発者としてプロジェクトに参加するには、管理者にメッセージを送信し参加を承認してもらう必要があります。
 2018年10月現在の[GetFEM++](http://getfem.org)の管理者は [Konstantinos
