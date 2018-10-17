@@ -22,7 +22,7 @@
         <span class="background dark" style="background-image:url('https://tkoyama010.github.io/getfem-docs-html-ja/images/tripod.png')"></span>
         <div class="wrap size-60">
           <span class="aligncenter">
-          <h1><p class="shadow">GetFEM++ ユーザドキュメントの地域化</p></h1>
+          <h1><p class="myshadow">GetFEM++ ユーザドキュメントの地域化</p></h1>
           <h2>L10N 日本語翻訳作業<h2>
           <h2>@tkoyama010 @GetFEM++ Japanese Team<h2>
           </span>
@@ -36,24 +36,40 @@
             </video>
           </div>
           <div class="flex-content">
-            <h1><strong>はじめに</strong></h1>
-            <h2>GetFEM++は汎用的で効率的な有限要素法のC++ライブラリです。<h2>
-            <h2><strong>有限要素法</strong>を用いて線形および非線形偏微分方程式を解くための<strong>フレームワーク</strong>を提供することを目指しています。<h2>
-            <h2>あなたがこれから有限要素法プログラムを作成するならばGetFEM++を使用することをおすすめします。<h2>
+            <div class="bg-white shadow">
+              <h1><strong>はじめに</strong></h1>
+              <h4>GetFEM++は汎用的で効率的な有限要素法のC++ライブラリです。</h4>
+              <h4><strong>有限要素法</strong>を用いて線形および非線形偏微分方程式を解くための<strong>フレームワーク</strong>を提供することを目指しています。</h4>
+              <h4>あなたがこれから有限要素法プログラムを作成するならばGetFEM++を使用することをおすすめします。</h4>
+            </div>
           </div>
         </div>
       </section>
       <section class="fullscreen">
         <div class="card-50">
           <div class="flex-content">
-            <h1><strong>なぜGetFEM++を使用するのか？</strong></h1>
-            <ul>
-              <li><h3>弱形式言語が使えるため離散化が必要ない</h3></li>
-              <li><h3>モデルオブジェクトによる情報整理</h3></li>
-              <li><h3>評価関数を自由に選択できる</h3></li>
-              <li><h3>Pythonのインターフェースが使える</h3></li>
-            </ul>
-            <div align="right"><h2>などなど・・・</h2></div>
+            <div class="bg-white shadow">
+              <h1><strong>なぜGetFEM++を使用するのか？</strong></h1>
+              <ul class="flexblock reasons">
+                <li>
+                  <h2>弱形式言語</h2>
+                  <p>弱形式を記述する独自の言語を使用して定式化を表現できるため、ユーザーは離散化を行う必要がありません。</p>
+                </li>
+                <li>
+                  <h2>オブジェクト</h2>
+                  <p>Meshオブジェクト・Femオブジェクト・Integオブジェクト・Modelオブジェクトなど有限要素法の実装に必要なオブジェクトがフレームワークとして実装されています。</p>
+                </li>
+                <li>
+                  <h2>メッシュ-有限要素法</h2>
+                  <p>メッシュの各凸包に任意の有限要素法を設定することができます。</p>
+                </li>
+                <li>
+                  <h2>Pythonインターフェース</h2>
+                  <p>Pythonによるプログラミングも可能です。それによりプリ処理・ポスト処理が簡易になっています。</p>
+                </li>
+              </ul>
+              <div align="right">などなど・・・</div>
+            </div>
           </div>
           <div class="flex-content">
             <div class="wrap size-60">
@@ -99,7 +115,7 @@ DIRICHLET_BOUNDARY = 2
       <section class="fullscreen">
         <div class="card-50">
           <div class="flex-content">
-            <h1><p class="shadow">GetFEM++のサイト(本家)</p></h1>
+            <h1><p class="myshadow">GetFEM++のサイト(本家)</p></h1>
             <div align="right">
               <h3>ホームページが英語・・・</h3>
             </div>
@@ -113,7 +129,7 @@ DIRICHLET_BOUNDARY = 2
             </iframe>
           </div>
           <div class="flex-content">
-            <h1><p class="shadow">作成した日本語の翻訳サイト</p></h1>
+            <h1><p class="myshadow">作成した日本語の翻訳サイト</p></h1>
             <div align="right">
               <h3>今回の成果</h3>
             </div>
@@ -131,12 +147,12 @@ DIRICHLET_BOUNDARY = 2
       <section class="bg-lignt">
         <span class="background dark" style="background-image:url('https://avatars0.githubusercontent.com/u/31936682?s=400&v=4')"></span>
         <div class="wrap size-60">
-          <h1><p class="shadow">翻訳作業</p></h1>
-          <h3>
+          <h1><p class="myshadow">翻訳作業</p></h1>
+          <h4>
             GetFEM++のドキュメントには<strong>Sphinx</strong>が使用されています。
             <strong>Sphinx</strong>はPythonのために作成されたドキュメント作成ソフトです。
             <strong>Sphinx</strong>には国際化機能があるため今回はそれを使用して翻訳を行いました。
-          </h3>
+          </h4>
           <iframe title="Sphinx page"
              width="4000"
              height="630"
