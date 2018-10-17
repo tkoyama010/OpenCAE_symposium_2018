@@ -318,11 +318,6 @@ APIキーを聞かれた際には[Transifex](https://www.transifex.com)のアカ
 で場所は 池袋サンシャインシティ2F 展示ホールD（文化会館ビル2F） でした。
 50部を印刷し、頒布数は38部(内4部は挨拶用・2部はオープンCAE勉強会参加者様)でした。
 
-![[サークルGetFEM++@技術書典5のブース](https://techbookfest.org/event/tbf05)<span
-data-label="fig:tecbookfest5-boose"></span>](https://raw.githubusercontent.com/tkoyama010/tkoyama010_OpenCAE_journal_and_symposium/master/symposium/TeX/fig/boose-1.png "fig:"){width="25.00000%"}
-![[サークルGetFEM++@技術書典5のブース](https://techbookfest.org/event/tbf05)<span
-data-label="fig:tecbookfest5-boose"></span>](https://raw.githubusercontent.com/tkoyama010/tkoyama010_OpenCAE_journal_and_symposium/master/symposium/TeX/fig/boose-2.png "fig:"){width="25.00000%"}
-
 ブースには以下の方ような方がいらっしゃいました。
 
 -   <span>昔商用FEMコードを使われていて今は使われていない方</span>
