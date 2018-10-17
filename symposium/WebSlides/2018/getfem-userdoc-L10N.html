@@ -28,15 +28,6 @@
           </span>
         </div>
       </section>
-      <section class="bg-lignt">
-        <span class="background dark" style="background-image:url('https://tkoyama010.github.io/getfem-docs-html-ja/images/tripod.png')"></span>
-        <div class="wrap size-60">
-          <h1>はじめに</h1>
-          <h2>GetFEM++は汎用的で効率的な有限要素法のC++ライブラリです。<h2>
-          <h2><strong>有限要素法</strong>を用いて線形および非線形偏微分方程式を解くための<strong>フレームワーク</strong>を提供することを目指しています。<h2>
-          <h2>あなたがこれから有限要素法プログラムを作成するならばGetFEM++を使用することをおすすめします。<h2>
-        </div>
-      </section>
       <section class="fullscreen">
         <div class="card-50">
           <div class="flex-content">
@@ -45,12 +36,62 @@
             </video>
           </div>
           <div class="flex-content">
+            <h1><strong>はじめに</strong></h1>
+            <h2>GetFEM++は汎用的で効率的な有限要素法のC++ライブラリです。<h2>
+            <h2><strong>有限要素法</strong>を用いて線形および非線形偏微分方程式を解くための<strong>フレームワーク</strong>を提供することを目指しています。<h2>
+            <h2>あなたがこれから有限要素法プログラムを作成するならばGetFEM++を使用することをおすすめします。<h2>
+          </div>
+        </div>
+      </section>
+      <section class="fullscreen">
+        <div class="card-50">
+          <div class="flex-content">
             <h1><strong>なぜGetFEM++を使用するのか？</strong></h1>
-            <h2>弱形式言語</h2>
-            <h2>モデルオブジェクト</h2>
-            <h2>自由な評価関数の選択</h2>
-            <h2>Pythonのインターフェース</h2>
+            <ul>
+              <li><h3>弱形式言語が使えるため離散化が必要ない</h3></li>
+              <li><h3>モデルオブジェクトによる情報整理</h3></li>
+              <li><h3>評価関数を自由に選択できる</h3></li>
+              <li><h3>Pythonのインターフェースが使える</h3></li>
+            </ul>
             <div align="right"><h2>などなど・・・</h2></div>
+          </div>
+          <div class="flex-content">
+            <div class="wrap size-60">
+              <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+              <pre><code class="prettyprint">
+import getfem as gf
+import numpy as np
+
+m=gf.Mesh('import','gid','../meshes/tripod.GiD.msh')
+print('done!')
+mfu=gf.MeshFem(m,3) # displacement
+mfp=gf.MeshFem(m,1) # pressure
+mfd=gf.MeshFem(m,1) # data
+mim=gf.MeshIm(m, gf.Integ('IM_TETRAHEDRON(5)'))
+degree = 2
+linear = False
+incompressible = False # ensure that degree > 1 when incompressible is on..
+
+mfu.set_fem(gf.Fem('FEM_PK(3,%d)' % (degree,)))
+mfd.set_fem(gf.Fem('FEM_PK(3,0)'))
+mfp.set_fem(gf.Fem('FEM_PK_DISCONTINUOUS(3,0)'))
+
+print('nbcvs=%d, nbpts=%d, qdim=%d, fem = %s, nbdof=%d' % \
+      (m.nbcvs(), m.nbpts(), mfu.qdim(), mfu.fem()[0].char(), mfu.nbdof()))
+
+P=m.pts()
+print('test', P[1,:])
+ctop=(abs(P[1,:] - 13) < 1e-6)
+cbot=(abs(P[1,:] + 10) < 1e-6)
+pidtop=np.compress(ctop, range(0, m.nbpts()))
+pidbot=np.compress(cbot, range(0, m.nbpts()))
+
+ftop=m.faces_from_pid(pidtop)
+fbot=m.faces_from_pid(pidbot)
+NEUMANN_BOUNDARY = 1
+DIRICHLET_BOUNDARY = 2
+              </code></pre>
+            </div>
           </div>
         </div>
       </section>
@@ -58,8 +99,8 @@
       <section class="fullscreen">
         <div class="card-50">
           <div class="flex-content">
-            <h2>今回の教材</h2>
-            <h1>GetFEM++のサイト(本家)</h1>
+            <h2>ホームページを読んでみましょう・・・</h2>
+            <h1>GetFEM++のサイト<strong>(本家)</strong></h1>
             <a href="http://getfem.org/userdoc/index.html">
               http://getfem.org/userdoc/index.html
             </a>
@@ -71,7 +112,7 @@
           </div>
           <div class="flex-content">
             <h2>今回の成果</h2>
-            <h1>GetFEM++のサイト(日本語)</h1>
+            <h1><strong>作成した日本語の翻訳サイト</strong></h1>
             <a href="https://tkoyama010.github.io/getfem-docs-html-ja/userdoc/index.html">
               https://tkoyama010.github.io/getfem-docs-html-ja/userdoc/index.html
             </a>
@@ -84,7 +125,21 @@
         </div>
       </section>
       <section class="aligncenter">
-        <h1>5枚目</h1>
+        <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+        <pre><code class="prettyprint">
+import getfem as gf
+import numpy as np
+epsilon = 1.; E = 21E6; nu = 0.3;
+clambda = E*nu/((1+nu)*(1-2*nu));
+cmu = E/(2*(1+nu));
+clambdastar = 2*clambda*cmu/(clambda+2*cmu);
+F = 100E2; kappa = 4.; D = 10;
+air_temp = 20; alpha_th = 16.6E-6;
+T0 = 20; rho_0 = 1.754E-8;
+alpha = 0.0039;
+
+h = 2; elements_degree = 2;
+        </code></pre>
       </section>
       <section class="aligncenter">
         <h1>6枚目</h1>
@@ -126,5 +181,6 @@
 
     <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
     <script defer src="../static/js/svg-icons.js"></script>
+
   </body>
 </html>
