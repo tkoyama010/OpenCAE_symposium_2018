@@ -13,29 +13,72 @@
     <link rel="stylesheet" type='text/css' media='all' href="../static/css/svg-icons.css"/>
 
     <link rel="shortcut icon" sizes="16x16" href="images/favicons/favicon.png">
+
+    <link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
   </head>
   <body>
 
     <article id="webslides">
-      <section class="aligncenter">
-        <h1>GetFEM++ ユーザドキュメントの地域化L10N</h1>
-        <h2>日本語翻訳作業<h2>
-        <h2>@tkoyama010 @GetFEM++ Japanese Team<h2>
+      <section class="bg-lignt">
+        <span class="background dark" style="background-image:url('https://tkoyama010.github.io/getfem-docs-html-ja/images/tripod.png')"></span>
+        <div class="wrap size-60">
+          <span class="aligncenter">
+          <h1>GetFEM++ ユーザドキュメントの地域化L10N</h1>
+          <h2>日本語翻訳作業<h2>
+          <h2>@tkoyama010 @GetFEM++ Japanese Team<h2>
+          </span>
+        </div>
       </section>
-      <section class="bg-gradient-v slide current" id="section-59" style="">
+      <section class="bg-lignt">
         <span class="background dark" style="background-image:url('https://tkoyama010.github.io/getfem-docs-html-ja/images/tripod.png')"></span>
         <div class="wrap size-60">
           <h1>はじめに</h1>
           <h2>GetFEM++は汎用的で効率的な有限要素法のC++ライブラリです。<h2>
-          <h2>有限要素法を用いて線形および非線形偏微分方程式を解くためのフレームワークを提供することを目指しています。<h2>
+          <h2><strong>有限要素法</strong>を用いて線形および非線形偏微分方程式を解くための<strong>フレームワーク</strong>を提供することを目指しています。<h2>
           <h2>あなたがこれから有限要素法プログラムを作成するならばGetFEM++を使用することをおすすめします。<h2>
         </div>
       </section>
-      <section class="aligncenter">
-        <h1>なぜGetFEM++を使用するのか？</h1>
+      <section class="bg-blue aligncenter">
+        <video class="background-video" autoplay muted loop poster="">
+          <source src="./getfem-tripod.mp4" type="video/mp4">
+        </video>
+        <div class="wrap">
+          <h1><strong>なぜGetFEM++を使用するのか？</strong></h1>
+        </div>
       </section>
-      <section class="aligncenter">
-        <h1>3枚目</h1>
+      <section>
+        <script>
+            $(function() {
+                $.getScript("https://www.youtube.com/iframe_api", function() {
+                    var player;
+                    window.onYouTubeIframeAPIReady = function() {
+                        player = new YT.Player('youtube1', {
+                            videoId: 'J3yH7Uz68bQ',
+                            playerVars: {
+                                playlist: 'J3yH7Uz68bQ',
+                                'rel': 0,
+                                'autoplay': 1,
+                                'controls': 0,
+                                'showinfo': 0,
+                                'loop': 1,
+                                'start': 30,
+                            },
+                            events: {
+                                'onReady': function(event) {
+                                    player.mute();
+                                    player.playVideo();
+                                }
+                            }
+                        });
+                    };
+                });
+            });
+        </script>
+        <div class="background-right">
+          <div id="youtube1"></div>
+        </div>
       </section>
       <section class="aligncenter">
         <h1>4枚目</h1>
