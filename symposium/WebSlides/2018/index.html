@@ -28,15 +28,19 @@
           </span>
         </div>
       </section>
-      <section class="fullscreen bg-black">
-          <video class="background-video" autoplay muted loop poster="https://webslides.tv/static/images/working.jpg">
-            <source src="https://webslides.tv/static/videos/working.mp4" type="video/mp4">
+      <section class="fullscreen bg-light">
+          <video class="background-video" autoplay muted loop>
+            <source src="http://www.studioovervelde.com/wp-content/uploads/2016/03/Wall-Sketching.mp4" type="video/mp4">
           </video>
-          <div class="wrap size-50">
-            <h1><strong>はじめに</strong></h1>
-            <h4>GetFEM++は汎用的で効率的な有限要素法のライブラリです。</h4>
-            <h4><strong>有限要素法</strong>を用いて線形および非線形偏微分方程式を解くための<strong>フレームワーク</strong>を提供することを目指しています。</h4>
-            <h4>あなたがこれから有限要素法プログラムを作成するならばGetFEM++を使用することをおすすめします。</h4>
+          <div class="wrap">
+            <div class="content-left">
+                <h1><strong>はじめに</strong></h1>
+                <h4>
+                  GetFEM++は汎用的で効率的な有限要素法のライブラリです。
+                  <strong>有限要素法</strong>を用いて線形および非線形偏微分方程式を解くための<strong>フレームワーク</strong>を提供することを目指しています。
+                  あなたがこれから有限要素法プログラムを作成するならばGetFEM++を使用することをおすすめします。
+                </h4>
+            </div>
           </div>
         </div>
       </section>
@@ -166,6 +170,13 @@
             <p>GetFEM++ のドキュメント翻訳</p>
             SphinxはPythonのために作成されたドキュメント作成ソフトです。
             Sphinxには国際化機能があるため今回はそれを使用して翻訳を行いました。
+            </p>
+              <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+              <pre>
+                <code class="prettyprint">
+$ sudo pip install sphinx-intl
+$ sudo apt-get install transifex-client</code>
+              </pre>
             <p>
               It is powered by
               <img class="logo" src="https://upload.wikimedia.org/wikipedia/en/d/dc/Sphinx_Python_Documentation_Logo.png" alt="Sphinx">
@@ -180,7 +191,6 @@
           <h1>翻訳作業</h1>
           <p>
             GetFEM++のドキュメントには<strong>Sphinx</strong>が使用されています。
-          </p>
           <iframe title="Sphinx page"
              width="4000"
              height="630"
