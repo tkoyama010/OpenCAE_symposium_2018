@@ -186,57 +186,6 @@ $ sudo apt-get install transifex-client</code>
         </div>
         <span class="background dark" style="background-image:url('https://avatars0.githubusercontent.com/u/31936682?s=400&v=4')"></span>
       </section>
-      <section class="bg-lignt">
-        <span class="background dark" style="background-image:url('https://avatars0.githubusercontent.com/u/31936682?s=400&v=4')"></span>
-        <div class="wrap size-60">
-          <h1>翻訳作業</h1>
-          <p>
-            GetFEM++のドキュメントには<strong>Sphinx</strong>が使用されています。
-          <iframe title="Sphinx page"
-             width="4000"
-             height="630"
-             src="http://www.sphinx-doc.org/ja/stable/intl.html">
-          </iframe>
-        </div>
-      </section>
-      <section class="aligncenter">
-            <div class="wrap size-60">
-              <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-              <pre><code class="prettyprint">
-import getfem as gf
-import numpy as np
-
-m=gf.Mesh('import','gid','../meshes/tripod.GiD.msh')
-print('done!')
-mfu=gf.MeshFem(m,3) # displacement
-mfp=gf.MeshFem(m,1) # pressure
-mfd=gf.MeshFem(m,1) # data
-mim=gf.MeshIm(m, gf.Integ('IM_TETRAHEDRON(5)'))
-degree = 2
-linear = False
-incompressible = False # ensure that degree > 1 when incompressible is on..
-
-mfu.set_fem(gf.Fem('FEM_PK(3,%d)' % (degree,)))
-mfd.set_fem(gf.Fem('FEM_PK(3,0)'))
-mfp.set_fem(gf.Fem('FEM_PK_DISCONTINUOUS(3,0)'))
-
-print('nbcvs=%d, nbpts=%d, qdim=%d, fem = %s, nbdof=%d' % \
-      (m.nbcvs(), m.nbpts(), mfu.qdim(), mfu.fem()[0].char(), mfu.nbdof()))
-
-P=m.pts()
-print('test', P[1,:])
-ctop=(abs(P[1,:] - 13) < 1e-6)
-cbot=(abs(P[1,:] + 10) < 1e-6)
-pidtop=np.compress(ctop, range(0, m.nbpts()))
-pidbot=np.compress(cbot, range(0, m.nbpts()))
-
-ftop=m.faces_from_pid(pidtop)
-fbot=m.faces_from_pid(pidbot)
-NEUMANN_BOUNDARY = 1
-DIRICHLET_BOUNDARY = 2
-              </code></pre>
-            </div>
-      </section>
       <section class="aligncenter">
         <h1>7枚目</h1>
       </section>
