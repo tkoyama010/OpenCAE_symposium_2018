@@ -101,8 +101,6 @@ So, we translated this document to Japanese by using Transifex and distributed i
 %% underscoreパッケージ
 \usepackage{underscore}
 %%
-%% draftwatermarkパッケージ
-\usepackage{draftwatermark}
 %% listingsパッケージ
 \usepackage{listings}
 \lstset{
@@ -161,8 +159,8 @@ So, we translated this document to Japanese by using Transifex and distributed i
 そこで、\href{http://www.sphinx-doc.org/ja/stable/}{Sphinx}の国際化機能を使用して\href{http://getfem.org}{GetFEM++}のドキュメント翻訳作業を
 翻訳プラットホーム\href{https://www.transifex.com}{Transifex}で行いました。
 さらに、技術同人誌即売会である\href{https://techbookfest.org/event/tbf05}{技術書典5}で翻訳したドキュメントの頒布を行いました。
-本報告では翻訳作業の手順と頒布の活動について紹介します。
-操作環境は\href{https://www.ubuntu.com/}{Ubuntu}18.04です。
+本報告では以上の作業内容について報告をします。
+なお作業環境は\href{https://www.ubuntu.com/}{Ubuntu}18.10です。
 
 \section{\href{http://getfem.org}{GetFEM++}プロジェクト}
 \href{http://getfem.org}{GetFEM++}の英語の\href{https://en.wikipedia.org/wiki/GetFEM++}{Wikipedia}を翻訳し、
@@ -171,13 +169,12 @@ So, we translated this document to Japanese by using Transifex and distributed i
 
 \begin{quote}
 GetFEM++ は Python, Matlab そして Scilabのインタフェースを使用可能なC++の汎用ライブラリである。
-このライブラリの目的は有限要素法を用いて線形および非線形偏微分方程式を解くためのフレームワークを提供することである。
+このライブラリの目的は\emph{有限要素法を用いて線形および非線形偏微分方程式を解くためのフレームワークを提供することである}。
 有限要素近似や数値積分法の選択の柔軟性が特徴の一つである。
 \texttt{「\href{https://ja.wikipedia.org/wiki/GetFEM++}{GetFEM++ - Wikipedia}」(Oct.13,2018 12:01 UTC) より引用}
 \end{quote}
 ライセンスや受賞歴については\href{https://ja.wikipedia.org/wiki/GetFEM++}{ページ}を参照してください。
 \href{http://www.getfem.org/tutorial/index.html}{GetFEM++のチュートリアル}には\autoref{fig:getfem-tutorial}に示す例が掲載されています。
-
 \begin{figure}
 %\centering
 \subfigure[\href{http://www.getfem.org/tutorial/thermo_coupling.html}{熱弾性的および電気結合の例}]{
@@ -189,7 +186,6 @@ GetFEM++ は Python, Matlab そして Scilabのインタフェースを使用可
 \caption{GetFEM++を使用した解析例}
 \label{fig:getfem-tutorial}
 \end{figure}
-
 \href{http://getfem.org}{GetFEM++}はソースのホスティングサービスとして\href{https://savannah.gnu.org}{Savannah}を使用しています。
 GNU \href{https://savannah.gnu.org}{Savannah}についてWikipediaの説明を引用します。
 \begin{quote}
@@ -200,11 +196,13 @@ Savannah は、SourceForge.netと同じソフトウェアをベースとした�
 \texttt{「\href{https://savannah.gnu.org}{GNU Savannah - Wikipedia}」(Oct.13,2018 11:31 UTC) より引用}
 \end{quote}
 このように、\href{https://savannah.gnu.org}{Savannah}はGNUプロジェクトやフリーソフトのホスティングサービスとして広く使われています。
-このホスティングサービスでは非開発ユーザの場合、以下のようにして、リポジトリをクローンします。
+このホスティングサービスでは非開発ユーザの場合、以下のようにして、リポジトリをクローンしコンパイルとインストールを行います。
 \begin{shbox}
   \shuser{user}
   \shline{}{git clone https://git.savannah.nongnu.org/git/getfem.git}
 \end{shbox}
+標準的な GNU ツールを使用しているので、 GetFEM++ ライブラリのインストールは幾分標準的です。
+異なるプラットフォーム上のインストールの詳細については、\href{http://getfem.org/download.html}{ダウンロードとインストール}ページを参照してください。
 また、ソースからコンパイルする必要のない場合には以下のように\texttt{aptitude}(もしくは\texttt{apt})コマンドによりインストールすることも可能です。
 \begin{shbox}
   \shuser{user}
@@ -219,9 +217,9 @@ Savannah は、SourceForge.netと同じソフトウェアをベースとした�
 \caption{\href{https://savannah.gnu.org/account/register.php}{Savannahの新規ユーザ作成画面}}
 \label{fig:savannah-new-user}
 \end{figure}
-開発者としてプロジェクトに参加するには、管理者にメッセージを送信し参加を承認してもらう必要があります。
+開発者としてプロジェクトに参加するには、管理者にメッセージを送信し参加を承認される必要があります。
 2018年10月現在の\href{http://getfem.org}{GetFEM++}の管理者は \href{http://www.dtu.dk/english/service/phonebook/person?id=65472&tab=2&qt=dtupublicationquery}{Konstantinos Poulios} 氏と \href{http://math.univ-lyon1.fr/~renard/}{Yves Renard} 氏です。
-開発者として権限が与えられたら、\href{http://getfem.org/project/index.html}{How to contribute / Git repository on Savannah}を参考にプロジェクトにコミットをします。
+開発者として権限が与えられたら、\href{http://getfem.org/project/index.html}{How to contribute / Git repository on Savannah}を参考にプロジェクトに\texttt{commit}をします。
 開発者として、リポジトリをクローンする場合は以下のようにします。
 \begin{shbox}
   \shuser{developer}
@@ -248,8 +246,7 @@ Savannah は、SourceForge.netと同じソフトウェアをベースとした�
   \shline{}{}
 \end{shbox}
 これにより\texttt{/home/developer/.ssh/id\textunderscore{}rsa.pub}にRSA公開鍵のファイルが作成されます。
-これを、Savannahに\autoref{fig:savannah-authorized-keys}のように作成されたファイルの中身を登録しておくと登録した認証鍵を持つPCでGitの操作が可能になります。
-登録可能な数は最大5個です。
+これを、Savannahに\autoref{fig:savannah-authorized-keys}のように作成されたファイルの中身を登録すると登録した認証鍵を持つパソコンでGitの操作が可能になります。
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1.0\textwidth]{fig/savannah-authorized-keys.eps}
@@ -264,15 +261,15 @@ Savannah は、SourceForge.netと同じソフトウェアをベースとした�
   \shline{}{git branch devel-name-subject}
   \shline{}{git checkout devel-name-subject}
 \end{shbox}
-ここで、\texttt{name}は開発者の名前、\texttt{subject}は開発内容としてください。
+ここで、\texttt{name}は開発者の名前、\texttt{subject}は開発内容です。
 \footnote{
 プロジェクトへの貢献方法はプログラムの新機能のパッチ作成だけではありません。
 ドキュメントを読んでいる際に気づいたTypo(打ち間違い)の修正も大切な貢献です。
 著者はTypoの修正のために\texttt{fixfixmisspell}という\texttt{branch}を作成したころ、Typo修正用の公式ブランチとして採用されました。
 詳細は、 \href{http://getfem.org/project/contribute.html}{http://getfem.org/project/contribute.html} の"Specific branch for doc improvements and typo-fixes"を参照してください。
-自分の小さな提案が採用されることもOSSへの貢献の面白さかと思います。
+自分の小さな提案が採用されることもOSSへの貢献の面白さです。
 }
-修正後コミットをしてブランチに\texttt{push}します。
+修正後\texttt{commit}をしてブランチに\texttt{push}します。
 \begin{shbox}
   \shuser{developer}
   \shline{}{cd /path/to/getfem}
@@ -281,12 +278,12 @@ Savannah は、SourceForge.netと同じソフトウェアをベースとした�
 \end{shbox}
 修正後メーリングリスト\texttt{getfem-commits@nongnu.org}に連絡をして\texttt{master}ブランチへのマージを管理者にリクエストしてください。
 \emph{誤って}\texttt{master}\emph{ブランチに}\texttt{push}\emph{しないように十分注意してください}!!!
-管理者から注意されて\texttt{revert}されるでしょう。
+管理者から注意され\texttt{revert}されます。
 
 \section{\href{http://getfem.org}{GetFEM++}のコンパイルとテスト方法}
 \href{http://getfem.org}{GetFEM++}のコンパイルとテスト方法について説明します。
 まずは、\texttt{getfem}のリポジトリ直下にある\texttt{autogen.sh}を実行します。
-実行には\texttt{libtoolize}と\texttt{automake}が必要になりますので先にインストールしてください。
+実行には\texttt{libtoolize}と\texttt{automake}が必要になります。
 \begin{shbox}
   \shuser{devlname}
   \shline{} {sudo aptitude install libtool automake}
@@ -301,7 +298,7 @@ Savannah は、SourceForge.netと同じソフトウェアをベースとした�
   \item \texttt{liblapack-dev} - Library of linear algebra routines 3 - static version
   \item \texttt{libopenblas-dev} - Optimized BLAS (linear algebra) library (development files)
   \footnote{
-    第14回オープンCAE勉強会@関東（構造など）にて\texttt{openblas}を使用すると通常の\texttt{blas}より高速になるとの指摘を\href{https://twitter.com/michioga}{@michioga}氏よりいただきました。
+    第14回オープンCAE勉強会@関東（構造など）にて\texttt{openblas}が通常の\texttt{blas}より高速であるとの指摘を\href{https://twitter.com/michioga}{@michioga}氏よりいただきました。
   }
 \end{itemize}
 さらに、\href{https://www.python.org/}{Python}のためのヘッダーファイルとスタテックライブラリScipyをインストールします。
@@ -315,7 +312,7 @@ Savannah は、SourceForge.netと同じソフトウェアをベースとした�
   \item \texttt{python3-dev} - header files and a static library for Python (default)
   \item \texttt{python3-scipy} - scientific tools for Python
 \end{itemize}
-をそれぞれインストールしてください。
+をそれぞれインストールします。
 インストール後\texttt{./configure}をプロジェクトフォルダで実行して、Makefileを作成します。
 \href{https://www.python.org/}{Python}2の場合、
 \begin{shbox}
@@ -334,7 +331,7 @@ Makefile作成後以下のコマンドでコンパイルとテストの実行を
   \shline{}{make \&\& make check}
 \end{shbox}
 \href{https://www.gnu.org/software/automake/}{\texttt{automake}}により整備されたテスト項目が実行され結果がログファイル\texttt{tests/test-suite.log}に出力されます。
-テストに失敗した場合は\texttt{getfem-users@nongnu.org}に\texttt{tests/test-suite.log}を添付し報告をしてください(\emph{もちろんメッセージは英語で}!!!)。
+テストに失敗した場合は\texttt{getfem-users@nongnu.org}に\texttt{tests/test-suite.log}を添付し報告をしてください(\emph{もちろんメッセージは英語です}!!!)。
 
 \section{\href{http://www.sphinx-doc.org/ja/stable/intl.html}{GetFEM++のSphinxドキュメント日本語化プロジェクト}}
 \subsection{\href{https://pypi.org/project/sphinx-intl/}{\texttt{sphinx-intl}}による翻訳ワークフロー}
@@ -366,11 +363,6 @@ Makefile作成後以下のコマンドでコンパイルとテストの実行を
 \texttt{aptitude}で\texttt{sphinx-intl}をインストールをすることも可能ですが、\href{https://www.python.org/}{Python}2のバージョンを確実にイントールするためにこの方法をとります。
 次に、\texttt{doc/sphinx/Makefile.am}と\texttt{doc/sphinx/source/conf.py}に以下の変更を適用します
 (\texttt{「\href{http://www.turbare.net/weblog/workflow-with-transifex-and-sphinx.html}{Sphinx と transifex を活用した翻訳手順}」(Oct.14,2018 05:45 UTC)を参照})。
-\footnote{
-変更は2018年10月14日現在はブランチ\texttt{devel-tetsuo-translation}にコミットされています。
-コミットのSHA-1ハッシュは\texttt{d3d1d625c62e3e974087a7c16e2d13ed294c576d}です。
-管理者の承認が得られた場合\texttt{master}にマージされます。
-}
 \begin{lstlisting}[language=diff]
 diff --git a/doc/sphinx/Makefile.am b/doc/sphinx/Makefile.am
 index adb8259e..2cab2a69 100644
@@ -510,7 +502,7 @@ msgstr "私の名前は %sです。\n"
 \end{shbox}
 このコマンドは設定ファイル\texttt{doc/sphinx/.tx/config}を参照して\texttt{source/locale}以下に\texttt{*.po}ファイルをダウンロードするコマンドです。
 \footnote{
-\texttt{doc/sphinx/.tx/config}はバージョンアップの際にTransifexのページ管理者が更新を行います。
+\texttt{doc/sphinx/.tx/config}はバージョンアップの際にTransifexのメンテナーが更新を行います。
 \texttt{doc/sphinx}で以下のコマンドを実行します。
 \begin{shbox}
   \shuser{admin}
@@ -522,6 +514,9 @@ APIキーを聞かれた際には\href{https://www.transifex.com}{Transifex}の�
 なお本プロジェクトではトラブル防止のため、翻訳の修正を提案する場合は必ず\href{https://www.transifex.com}{Transifex}のWebページから行ってください。
 \texttt{tx push}コマンドは使用しないでください。
 また、\texttt{tx push}をした後に\texttt{make gettext}を行うと\texttt{po}ファイルが更新されダウンロードした翻訳が消えることがあるため注意してください。
+
+以上の手順をまとめたものが\href{http://getfem.org}{GetFEM++}の公式ドキュメント\href{http://getfem.org/project/contribute.html}{Contributing to document translation}としてMergeされました。
+今後はこちらの文書で翻訳方法の情報更新を行います。
 
 \section{技術書典5サークル参加}
 翻訳した文書を頒布するため、技術書の即売会である\href{https://techbookfest.org/event/tbf05}{技術書典5}に参加しました。
@@ -557,15 +552,11 @@ APIキーを聞かれた際には\href{https://www.transifex.com}{Transifex}の�
 \label{fig:tecbookfest6-book}
 \end{figure}
 \section{まとめ}
+以上のまとめを以下に示します。
 \begin{itemize}
   \item{\href{https://ja.wikipedia.org/wiki/GetFEM++}{GetFEM++のWikipediaの日本語版}を作成することによりGetFEM++プロジェクトの目的を紹介した。}
   \item{\href{http://getfem.org}{GetFEM++}のソースのホスティングサービス\href{https://savannah.gnu.org}{Savannah}でプロジェクトに貢献する方法を紹介した。}
   \item{\href{http://www.sphinx-doc.org/ja/stable/intl.html}{GetFEM++のSphinxドキュメント日本語化プロジェクト}の内容について紹介した。}
   \item{\href{https://techbookfest.org/event/tbf05}{技術書典5}への参加報告をおこなった。}
 \end{itemize}
-\appendix
-\section{translate-shellの使用方法}
-執筆中
-\section{GithubPagesでの公開}
-執筆中
 \end{document}
