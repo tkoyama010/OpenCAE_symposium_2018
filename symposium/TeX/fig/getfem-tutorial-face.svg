@@ -114,18 +114,23 @@
      y="108.85954"
      id="text32"><tspan
        sodipodi:role="line"
-       id="tspan30"
        x="559.57422"
        y="108.85954"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;text-anchor:middle;fill:#008000;stroke-width:0.75">GetFEM++</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:80.00000257px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;text-anchor:middle;fill:#008000;stroke-width:0.75"
+       id="tspan29">GetFEM++チュートリアル</tspan><tspan
        sodipodi:role="line"
        x="559.57422"
-       y="233.85954"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;text-anchor:middle;fill:#008000;stroke-width:0.75"
-       id="tspan34">学習</tspan><tspan
+       y="198.85954"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.00000161px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;text-anchor:middle;fill:#008000;stroke-width:0.75"
+       id="tspan44">C++ Python Scilab、またはMatlab</tspan><tspan
        sodipodi:role="line"
        x="559.57422"
-       y="331.27954"
+       y="288.85956"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.00000161px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;text-anchor:middle;fill:#008000;stroke-width:0.75"
+       id="tspan46">で学ぶ有限要素法</tspan><tspan
+       sodipodi:role="line"
+       x="559.57422"
+       y="378.85956"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;text-anchor:middle;fill:#008000;stroke-width:0.75"
        id="tspan36">リリース5.3</tspan></text>
   <text
@@ -144,4 +149,14 @@
        y="1655.4009"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P Bold';text-align:end;text-anchor:end;fill:#008000;stroke-width:0.75"
        id="tspan47">Tetsuo Koyama 訳</tspan></text>
-</svg>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot33"
+     style="fill:black;fill-opacity:1;stroke:none;font-family:'Migu 1P';font-style:normal;font-weight:normal;font-size:133.33333333px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Migu 1P';font-stretch:normal;font-variant:normal"><flowRegion
+       id="flowRegion35"><rect
+         id="rect37"
+         width="711.88074"
+         height="156.43239"
+         x="392.21457"
+         y="91.26001" /></flowRegion><flowPara
+       id="flowPara39"></flowPara></flowRoot></svg>
