@@ -130,13 +130,11 @@
     </linearGradient>
     <style
        id="style153"
-       type="text/css">
-   <![CDATA[
+       type="text/css"><![CDATA[
     .str0 {stroke:#555555;stroke-width:29.9961}
     .fil1 {fill:none}
     .fil0 {fill:#FF0033;fill-rule:nonzero}
-   ]]>
-  </style>
+   ]]></style>
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -158,7 +156,7 @@
      inkscape:window-x="0"
      inkscape:window-y="-1"
      inkscape:window-maximized="1"
-     inkscape:current-layer="Layer_x0020_1" />
+     inkscape:current-layer="svg30" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72px;line-height:1.25;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -192,11 +190,11 @@
        id="tspan43"
        x="1125.3494"
        y="1231.153"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P Bold';text-align:end;text-anchor:end;fill:#000000;stroke-width:0.75">Yves Renard, Julien Pommier, Konstantinos Poulios 著</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.00000103px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P Bold';text-align:end;text-anchor:end;fill:#000000;stroke-width:0.75">Yves Renard, Julien Pommier, Konstantinos Poulios 著</tspan><tspan
        sodipodi:role="line"
        x="1125.3494"
        y="1321.153"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P Bold';text-align:end;text-anchor:end;fill:#000000;stroke-width:0.75"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.00000103px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P Bold';text-align:end;text-anchor:end;fill:#000000;stroke-width:0.75"
        id="tspan47">Tetsuo Koyama 訳</tspan></text>
   <flowRoot
      xml:space="preserve"
@@ -533,36 +531,31 @@
        transform="matrix(0.1,0,0,0.1,-219.76174,-52.438896)">
       <g
          id="Layer_x0020_1">
-  <metadata
-   id="CorelCorpID_0Corel-Layer" />
-
-  
-  
-  <g
-   id="g193"
-   transform="matrix(0.5,0,0,0.5,2167.7458,523.63843)">
-  <path
-     style="fill:#ff0033;fill-rule:nonzero"
-     inkscape:connector-curvature="0"
-     class="fil0"
-     d="M 732,813 C 673,848 602,865 521,865 411,865 322,830 254,761 186,693 153,603 153,493 153,371 189,273 262,198 334,124 432,87 554,87 c 67,0 127,12 179,36 v 156 c -52,-38 -107,-58 -166,-58 -71,0 -129,24 -174,72 -46,49 -69,112 -69,189 0,77 22,138 65,183 43,44 100,66 172,66 60,0 117,-21 171,-64 z"
-     id="path158" />
-  <path
-     style="fill:#ff0033;fill-rule:nonzero"
-     inkscape:connector-curvature="0"
-     class="fil0"
-     d="m 489,573 v -75 h -74 v -31 h 74 v -74 h 32 v 74 h 74 v 31 h -74 v 75 z"
-     id="path160" />
-  <path
-     style="fill:#ff0033;fill-rule:nonzero"
-     inkscape:connector-curvature="0"
-     id="1"
-     class="fil0"
-     d="m 711,573 v -75 h -74 v -31 h 74 v -74 h 31 v 74 h 75 v 31 h -75 v 75 z" />
-</g>
-
-  
- </g>
+        <metadata
+           id="CorelCorpID_0Corel-Layer" />
+        <g
+           id="g193"
+           transform="matrix(0.5,0,0,0.5,2167.7458,523.63843)">
+          <path
+             style="fill:#ff0033;fill-rule:nonzero"
+             inkscape:connector-curvature="0"
+             class="fil0"
+             d="M 732,813 C 673,848 602,865 521,865 411,865 322,830 254,761 186,693 153,603 153,493 153,371 189,273 262,198 334,124 432,87 554,87 c 67,0 127,12 179,36 v 156 c -52,-38 -107,-58 -166,-58 -71,0 -129,24 -174,72 -46,49 -69,112 -69,189 0,77 22,138 65,183 43,44 100,66 172,66 60,0 117,-21 171,-64 z"
+             id="path158" />
+          <path
+             style="fill:#ff0033;fill-rule:nonzero"
+             inkscape:connector-curvature="0"
+             class="fil0"
+             d="m 489,573 v -75 h -74 v -31 h 74 v -74 h 32 v 74 h 74 v 31 h -74 v 75 z"
+             id="path160" />
+          <path
+             style="fill:#ff0033;fill-rule:nonzero"
+             inkscape:connector-curvature="0"
+             id="1"
+             class="fil0"
+             d="m 711,573 v -75 h -74 v -31 h 74 v -74 h 31 v 74 h 75 v 31 h -75 v 75 z" />
+        </g>
+      </g>
     </g>
   </g>
   <rect
