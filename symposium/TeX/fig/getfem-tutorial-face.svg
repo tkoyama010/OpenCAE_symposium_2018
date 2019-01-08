@@ -135,6 +135,63 @@
     .fil1 {fill:none}
     .fil0 {fill:#FF0033;fill-rule:nonzero}
    ]]></style>
+    <linearGradient
+       gradientTransform="rotate(-90,23.999998,24)"
+       gradientUnits="userSpaceOnUse"
+       x2="47"
+       x1="1"
+       id="linearGradient3764-9-5">
+      <stop
+         id="stop540-0"
+         style="stop-color:#e4e4e4;stop-opacity:1" />
+      <stop
+         id="stop542-3"
+         style="stop-color:#eee;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="rotate(-90,24,24)"
+       gradientUnits="userSpaceOnUse"
+       x2="47"
+       x1="1"
+       id="linearGradient4325-0">
+      <stop
+         id="stop422-2"
+         style="stop-color:#3b4c50;stop-opacity:1" />
+      <stop
+         id="stop424-7"
+         style="stop-color:#44575c;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="rotate(-90,23.999998,24)"
+       gradientUnits="userSpaceOnUse"
+       x2="47"
+       x1="1"
+       id="linearGradient3764-5-2">
+      <stop
+         id="stop277-8"
+         style="stop-color:#3d3d3d;stop-opacity:1" />
+      <stop
+         id="stop279-2"
+         style="stop-color:#474747;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="rotate(-90,23.999999,24.000001)"
+       x1="1"
+       gradientUnits="userSpaceOnUse"
+       x2="47"
+       id="linearGradient3764-4">
+      <stop
+         id="stop157-2"
+         offset="0"
+         style="stop-color:#acacac" />
+      <stop
+         id="stop159-2"
+         offset="1"
+         style="stop-color:#b6b6b6" />
+    </linearGradient>
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -152,50 +209,11 @@
      units="mm"
      inkscape:zoom="0.31189427"
      inkscape:cx="1494.425"
-     inkscape:cy="1205.1402"
+     inkscape:cy="995.16205"
      inkscape:window-x="0"
      inkscape:window-y="-1"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg30" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72px;line-height:1.25;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.75"
-     x="559.57422"
-     y="108.85954"
-     id="text32"><tspan
-       sodipodi:role="line"
-       x="559.57422"
-       y="108.85954"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
-       id="tspan44"><tspan
-         id="tspan203"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:80px;line-height:1.25;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75">はじめてのGetFEM++</tspan></tspan><tspan
-       sodipodi:role="line"
-       x="559.57422"
-       y="200.97954"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
-       id="tspan625">C++/Python/Scilab/Matlab</tspan><tspan
-       sodipodi:role="line"
-       x="559.57422"
-       y="290.97955"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
-       id="tspan36">で学ぶ物理シュミレーション</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72px;line-height:1.25;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.75"
-     x="1125.3494"
-     y="1231.153"
-     id="text45"><tspan
-       sodipodi:role="line"
-       id="tspan43"
-       x="1125.3494"
-       y="1231.153"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.00000103px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P Bold';text-align:end;text-anchor:end;fill:#000000;stroke-width:0.75">Yves Renard, Julien Pommier, Konstantinos Poulios 著</tspan><tspan
-       sodipodi:role="line"
-       x="1125.3494"
-       y="1321.153"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.00000103px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P Bold';text-align:end;text-anchor:end;fill:#000000;stroke-width:0.75"
-       id="tspan47">Tetsuo Koyama 訳</tspan></text>
   <flowRoot
      xml:space="preserve"
      id="flowRoot33"
@@ -206,9 +224,55 @@
          height="156.43239"
          x="392.21457"
          y="91.26001" /></flowRegion><flowPara
-       id="flowPara39" /></flowRoot>  <g
+       id="flowPara39" /></flowRoot>  <rect
+     style="fill:#ffffff;stroke:#376400;stroke-width:0.75;stroke-opacity:1"
+     id="rect129"
+     width="1197.5488"
+     height="1688.0997"
+     x="-4.8093309"
+     y="7.730782" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72px;line-height:1.25;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.75"
+     x="557.16968"
+     y="120.88299"
+     id="text32"><tspan
+       sodipodi:role="line"
+       x="557.16968"
+       y="120.88299"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
+       id="tspan44"><tspan
+         id="tspan203"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:80px;line-height:1.25;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75">はじめてのGetFEM++</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="557.16968"
+       y="213.00299"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
+       id="tspan625">C++/Python/Scilab/Matlab</tspan><tspan
+       sodipodi:role="line"
+       x="557.16968"
+       y="303.00299"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
+       id="tspan36">で学ぶ物理シュミレーション</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72px;line-height:1.25;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.75"
+     x="1122.9448"
+     y="1243.1765"
+     id="text45"><tspan
+       sodipodi:role="line"
+       id="tspan43"
+       x="1122.9448"
+       y="1243.1765"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P Bold';text-align:end;text-anchor:end;fill:#000000;stroke-width:0.75">Yves Renard, Julien Pommier, Konstantinos Poulios 著</tspan><tspan
+       sodipodi:role="line"
+       x="1122.9448"
+       y="1333.1765"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P Bold';text-align:end;text-anchor:end;fill:#000000;stroke-width:0.75"
+       id="tspan47">Tetsuo Koyama 訳</tspan></text>
+  <g
      id="g206"
-     transform="matrix(7.5000002,0,0,7.5000002,362.75667,407.9622)">
+     transform="matrix(7.5000002,0,0,7.5000002,360.35203,419.98566)">
     <path
        id="path164"
        d="m 36.31,5 c 5.859,4.062 9.688,10.831 9.688,18.5 0,12.426 -10.07,22.5 -22.5,22.5 -7.669,0 -14.438,-3.828 -18.5,-9.688 1.037,1.822 2.306,3.499 3.781,4.969 4.085,3.712 9.514,5.969 15.469,5.969 12.703,0 23,-10.298 23,-23 0,-5.954 -2.256,-11.384 -5.969,-15.469 C 39.81,7.306 38.132,6.037 36.31,5 Z m 4.969,3.781 c 3.854,4.113 6.219,9.637 6.219,15.719 0,12.703 -10.297,23 -23,23 -6.081,0 -11.606,-2.364 -15.719,-6.219 4.16,4.144 9.883,6.719 16.219,6.719 12.703,0 23,-10.298 23,-23 0,-6.335 -2.575,-12.06 -6.719,-16.219 z"
@@ -227,7 +291,7 @@
     <path
        id="path170"
        d="M 24,1 C 36.703,1 47,11.297 47,24 47,36.703 36.703,47 24,47 11.297,47 1,36.703 1,24 1,11.297 11.297,1 24,1 Z"
-       style="fill:url(#linearGradient3764)"
+       style="fill:url(#linearGradient3764-4)"
        inkscape:connector-curvature="0" />
     <g
        id="g172"
@@ -267,7 +331,7 @@
   </g>
   <g
      id="g377"
-     transform="matrix(7.5000002,0,0,7.5000002,81.518295,841.37682)">
+     transform="matrix(7.5000002,0,0,7.5000002,79.113729,853.40026)">
     <g
        id="g290">
       <path
@@ -290,7 +354,7 @@
        id="g294">
       <path
          id="path292"
-         style="fill:url(#linearGradient3764-5);fill-opacity:1"
+         style="fill:url(#linearGradient3764-5-2);fill-opacity:1"
          d="M 24,1 C 36.703,1 47,11.297 47,24 47,36.703 36.703,47 24,47 11.297,47 1,36.703 1,24 1,11.297 11.297,1 24,1 Z"
          inkscape:connector-curvature="0" />
     </g>
@@ -422,7 +486,7 @@
   </g>
   <g
      id="g483"
-     transform="matrix(7.8048449,0,0,7.4052935,810.58743,807.44086)">
+     transform="matrix(7.8048453,0,0,7.4052935,808.18283,819.46436)">
     <g
        id="g435">
       <path
@@ -443,7 +507,7 @@
     </g>
     <path
        id="path437"
-       style="fill:url(#linearGradient4325);fill-opacity:1"
+       style="fill:url(#linearGradient4325-0);fill-opacity:1"
        d="M 47,24 C 47,36.703 36.703,47 24,47 11.297,47 1,36.703 1,24 1,11.297 11.297,1 24,1 36.703,1 47,11.297 47,24 Z"
        inkscape:connector-curvature="0" />
     <g
@@ -490,7 +554,7 @@
   </g>
   <g
      id="g619"
-     transform="matrix(7.5000002,0,0,7.5000002,830.75545,256.86997)">
+     transform="matrix(7.5000002,0,0,7.5000002,828.35083,268.89346)">
     <g
        id="g553">
       <path
@@ -513,7 +577,7 @@
        id="g557">
       <path
          id="path555"
-         style="fill:url(#linearGradient3764-9);fill-opacity:1"
+         style="fill:url(#linearGradient3764-9-5);fill-opacity:1"
          d="M 24,1 C 36.703,1 47,11.297 47,24 47,36.703 36.703,47 24,47 11.297,47 1,36.703 1,24 1,11.297 11.297,1 24,1 Z"
          inkscape:connector-curvature="0" />
     </g>
@@ -563,32 +627,32 @@
      id="rect205"
      width="1197.5764"
      height="343.92175"
-     x="-2.4322634"
-     y="1339.8854" />
+     x="-4.8369188"
+     y="1351.9089" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:72px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="76.949158"
-     y="1424.0762"
+     x="74.544548"
+     y="1436.0996"
      id="text209"><tspan
        sodipodi:role="line"
        id="tspan207"
-       x="76.949158"
-       y="1424.0762"
-       style="stroke-width:0.75px;fill:#ffffff">Pythonで手軽に使える!!!</tspan><tspan
+       x="74.544548"
+       y="1436.0996"
+       style="fill:#ffffff;stroke-width:0.75px">Pythonで手軽に使える!!!</tspan><tspan
        sodipodi:role="line"
-       x="76.949158"
-       y="1519.2634"
-       style="stroke-width:0.75px;fill:#ffffff"
+       x="74.544548"
+       y="1531.2869"
+       style="fill:#ffffff;stroke-width:0.75px"
        id="tspan211">AI時代の物理シュミレーション</tspan><tspan
        sodipodi:role="line"
-       x="76.949158"
-       y="1614.4506"
-       style="stroke-width:0.75px;fill:#ffffff"
+       x="74.544548"
+       y="1626.474"
+       style="fill:#ffffff;stroke-width:0.75px"
        id="tspan213">ライブラリ</tspan></text>
   <g
      id="g169"
-     transform="matrix(0.04589163,0,0,-0.04577026,431.99454,1143.2052)"
+     transform="matrix(0.04589163,0,0,-0.04577026,429.58993,1155.2287)"
      style="fill:#009688;stroke:none">
     <path
        id="path161"
@@ -609,7 +673,7 @@
   </g>
   <g
      id="g270"
-     transform="translate(-1320.1589,137.06568)">
+     transform="translate(-1322.5634,149.08916)">
     <path
        id="path161-0"
        d="m 1545.5756,405.35868 c -9.316,0.86964 -11.5647,1.09849 -12.1154,1.32734 -0.9638,0.36616 -3.0748,18.35388 -3.8549,32.86305 l -0.3213,5.90436 -5.0481,1.2358 c -2.7535,0.68655 -6.6083,1.87658 -8.4899,2.65467 -4.8186,1.96812 -15.4655,7.04862 -18.219,8.74212 -1.2849,0.7781 -2.4322,1.41888 -2.524,1.41888 -0.1377,0 -6.9297,-5.49243 -15.0984,-12.17489 -8.1687,-6.68246 -15.1442,-12.26643 -15.4196,-12.40374 -1.1014,-0.4577 -10.5091,7.50632 -17.5306,14.7838 -6.746,6.95708 -14.4558,16.56883 -13.9051,17.25538 1.9733,2.60891 9.4995,11.8545 15.9244,19.5439 4.3138,5.17204 8.031,9.65753 8.2146,9.97792 0.1835,0.36616 -0.413,1.73927 -1.5603,3.57008 -3.0748,4.85165 -6.6543,12.40374 -8.2605,17.34693 -0.8261,2.51736 -1.9734,6.04167 -2.57,7.87249 -0.5966,1.78504 -1.1014,3.57008 -1.1014,3.93624 0,0.50347 -0.8719,0.73232 -3.3042,0.96117 -17.8977,1.64773 -35.1071,3.61585 -35.566,4.11933 -1.4226,1.3731 -2.3404,19.77275 -1.5603,29.70489 0.5507,6.91131 1.6062,14.41764 2.111,14.87534 0.1836,0.22885 13.7216,1.55619 34.74,3.52431 l 3.5336,0.32039 0.2754,1.87658 c 0.1836,1.05272 0.6884,2.83776 1.1473,3.98201 0.4589,1.14426 1.5603,4.43972 2.4781,7.36902 1.7898,5.5382 5.507,13.41068 8.5818,17.98771 1.0096,1.51042 1.7439,2.97507 1.6062,3.34123 -0.1377,0.32039 -3.809,4.85165 -8.2146,10.06945 -12.1154,14.46341 -15.9703,19.36082 -15.6032,19.95584 1.5603,2.74621 8.9489,11.39679 14.1346,16.6146 6.8379,6.86554 17.5306,15.74497 18.0355,15.01265 0.1835,-0.27462 4.5432,-3.93624 9.729,-8.19288 5.1857,-4.25663 11.4729,-9.47444 13.9969,-11.62564 2.5241,-2.19698 4.9104,-4.21087 5.3693,-4.53126 0.6425,-0.50347 1.5145,-0.18308 5.966,2.33428 6.1494,3.47854 13.7216,6.59092 21.0642,8.55904 2.8912,0.7781 5.5529,1.60196 5.8283,1.78504 0.3671,0.22885 1.0555,4.98896 1.9274,13.82262 1.3767,13.41069 2.6158,23.98362 2.9371,24.94479 0.3671,0.96118 14.2264,1.6935 26.1123,1.41888 9.4537,-0.22885 18.6779,-1.09849 19.4122,-1.78504 0.092,-0.13731 0.9178,-8.23865 1.7897,-18.03348 0.9179,-9.79484 1.7439,-18.49119 1.8816,-19.31505 0.2753,-1.73927 0.1836,-1.6935 8.1228,-4.02779 6.6543,-1.96812 15.5114,-5.85859 20.8807,-9.19982 2.1569,-1.37311 4.1302,-2.38005 4.4056,-2.24274 0.2753,0.0915 3.0747,2.38005 6.2413,5.0805 10.6468,9.15405 23.9554,19.49813 24.6438,19.26928 1.239,-0.50347 6.333,-4.39395 9.1783,-7.00285 5.92,-5.49243 22.1656,-23.84631 22.1656,-25.03633 0,-0.13731 -5.2316,-6.45361 -11.5646,-14.05147 -6.379,-7.5521 -12.0695,-14.3261 -12.6202,-15.01265 l -1.0097,-1.2358 2.7077,-5.21781 c 3.6254,-6.91131 7.159,-15.74497 8.6735,-21.55779 l 1.1932,-4.76011 8.4899,-0.77809 c 4.6809,-0.41193 13.4921,-1.2358 19.5957,-1.78504 l 11.1058,-1.05272 0.2754,-1.19002 c 0.5965,-2.88353 1.1931,-10.02369 1.4226,-17.3927 0.413,-10.84755 -0.7802,-26.63829 -2.0192,-27.41639 -0.3213,-0.18308 -9.0407,-1.09848 -19.4581,-2.05966 -10.4174,-0.96117 -19.0909,-1.83081 -19.2745,-1.92235 -0.1835,-0.0915 -0.5507,-1.37311 -0.826,-2.83776 -1.2391,-6.27052 -5.2776,-16.66037 -9.4537,-24.39554 l -2.983,-5.53821 1.7439,-2.10543 c 0.9638,-1.19002 6.379,-7.82671 12.1154,-14.78379 5.6906,-6.95708 10.5092,-12.86144 10.6928,-13.18184 0.3671,-0.54924 -3.2583,-5.17204 -9.316,-11.90026 -6.7002,-7.41479 -22.0739,-20.64239 -23.1294,-19.8643 -3.809,2.88353 -17.5306,13.95993 -22.3492,18.03349 -3.4419,2.83775 -6.5167,5.44666 -6.9297,5.76705 -0.5507,0.4577 -2.4781,-0.32039 -10.5092,-4.39395 -7.0214,-3.47854 -11.3352,-5.30935 -14.9147,-6.36206 -2.7535,-0.82387 -5.507,-1.46465 -6.0577,-1.46465 -1.1473,0 -1.1473,0.13731 -2.2487,-11.67142 -0.7802,-8.74212 -2.9371,-27.82832 -3.1207,-28.0114 -0.3671,-0.36616 -5.7823,-1.05271 -11.5646,-1.46465 -5.966,-0.4577 -17.0717,-0.54924 -20.8348,-0.18308 z m 20.8806,95.84293 c 9.9585,1.64773 19.5958,6.91131 27.9939,15.24149 8.2146,8.14711 13.2627,17.11808 15.3737,27.50793 4.7728,22.9309 -4.5432,45.67872 -23.8636,58.40285 -8.8112,5.81283 -17.347,8.51327 -28.2693,8.97097 -10.1879,0.45771 -17.8059,-1.09848 -26.5712,-5.35512 -10.9681,-5.35512 -19.2286,-13.41068 -25.0568,-24.44132 -4.4056,-8.37595 -6.1495,-15.69919 -6.1036,-26.13481 0.046,-12.86145 3.5336,-23.20553 11.1975,-33.0919 9.7291,-12.58682 22.9458,-20.41354 36.4839,-21.55779 5.0939,-0.41194 15.0983,-0.18309 18.8155,0.4577 z"
@@ -623,7 +687,7 @@
   </g>
   <g
      id="g305"
-     transform="translate(-1354.8809,-337.15313)">
+     transform="translate(-1357.2854,-325.12966)">
     <path
        id="path161-3"
        d="m 1531.1476,619.37356 c -9.316,0.86964 -11.5647,1.09849 -12.1154,1.32734 -0.9638,0.36616 -3.0748,18.35388 -3.8549,32.86305 l -0.3213,5.90436 -5.0481,1.2358 c -2.7535,0.68655 -6.6083,1.87658 -8.4899,2.65467 -4.8186,1.96812 -15.4655,7.04862 -18.219,8.74212 -1.2849,0.7781 -2.4322,1.41888 -2.524,1.41888 -0.1377,0 -6.9297,-5.49243 -15.0984,-12.17489 -8.1687,-6.68246 -15.1442,-12.26643 -15.4196,-12.40374 -1.1014,-0.4577 -10.5091,7.50632 -17.5306,14.7838 -6.746,6.95708 -14.4558,16.56883 -13.9051,17.25538 1.9733,2.60891 9.4995,11.8545 15.9244,19.5439 4.3138,5.17204 8.031,9.65753 8.2146,9.97792 0.1835,0.36616 -0.413,1.73927 -1.5603,3.57008 -3.0748,4.85165 -6.6543,12.40374 -8.2605,17.34693 -0.8261,2.51736 -1.9734,6.04167 -2.57,7.87249 -0.5966,1.78504 -1.1014,3.57008 -1.1014,3.93624 0,0.50347 -0.8719,0.73232 -3.3042,0.96117 -17.8977,1.64773 -35.1071,3.61585 -35.566,4.11933 -1.4226,1.3731 -2.3404,19.77275 -1.5603,29.70489 0.5507,6.91131 1.6062,14.41764 2.111,14.87534 0.1836,0.22885 13.7216,1.55619 34.74,3.52431 l 3.5336,0.32039 0.2754,1.87658 c 0.1836,1.05272 0.6884,2.83776 1.1473,3.98201 0.4589,1.14426 1.5603,4.43972 2.4781,7.36902 1.7898,5.5382 5.507,13.41068 8.5818,17.98771 1.0096,1.51042 1.7439,2.97507 1.6062,3.34123 -0.1377,0.32039 -3.809,4.85165 -8.2146,10.06945 -12.1154,14.46341 -15.9703,19.36082 -15.6032,19.95584 1.5603,2.74621 8.9489,11.39679 14.1346,16.6146 6.8379,6.86554 17.5306,15.74497 18.0355,15.01265 0.1835,-0.27462 4.5432,-3.93624 9.729,-8.19288 5.1857,-4.25663 11.4729,-9.47444 13.9969,-11.62564 2.5241,-2.19698 4.9104,-4.21087 5.3693,-4.53126 0.6425,-0.50347 1.5145,-0.18308 5.966,2.33428 6.1494,3.47854 13.7216,6.59092 21.0642,8.55904 2.8912,0.7781 5.5529,1.60196 5.8283,1.78504 0.3671,0.22885 1.0555,4.98896 1.9274,13.82262 1.3767,13.41069 2.6158,23.98362 2.9371,24.94479 0.3671,0.96118 14.2264,1.6935 26.1123,1.41888 9.4537,-0.22885 18.6779,-1.09849 19.4122,-1.78504 0.092,-0.13731 0.9178,-8.23865 1.7897,-18.03348 0.9179,-9.79484 1.7439,-18.49119 1.8816,-19.31505 0.2753,-1.73927 0.1836,-1.6935 8.1228,-4.02779 6.6543,-1.96812 15.5114,-5.85859 20.8807,-9.19982 2.1569,-1.37311 4.1302,-2.38005 4.4056,-2.24274 0.2753,0.0915 3.0747,2.38005 6.2413,5.0805 10.6468,9.15405 23.9554,19.49813 24.6438,19.26928 1.239,-0.50347 6.333,-4.39395 9.1783,-7.00285 5.92,-5.49243 22.1656,-23.84631 22.1656,-25.03633 0,-0.13731 -5.2316,-6.45361 -11.5646,-14.05147 -6.379,-7.5521 -12.0695,-14.3261 -12.6202,-15.01265 l -1.0097,-1.2358 2.7077,-5.21781 c 3.6254,-6.91131 7.159,-15.74497 8.6735,-21.55779 l 1.1932,-4.76011 8.4899,-0.77809 c 4.6809,-0.41193 13.4921,-1.2358 19.5957,-1.78504 l 11.1058,-1.05272 0.2754,-1.19002 c 0.5965,-2.88353 1.1931,-10.02369 1.4226,-17.3927 0.413,-10.84755 -0.7802,-26.63829 -2.0192,-27.41639 -0.3213,-0.18308 -9.0407,-1.09848 -19.4581,-2.05966 -10.4174,-0.96117 -19.0909,-1.83081 -19.2745,-1.92235 -0.1835,-0.0915 -0.5507,-1.37311 -0.826,-2.83776 -1.2391,-6.27052 -5.2776,-16.66037 -9.4537,-24.39554 l -2.983,-5.53821 1.7439,-2.10543 c 0.9638,-1.19002 6.379,-7.82671 12.1154,-14.78379 5.6906,-6.95708 10.5092,-12.86144 10.6928,-13.18184 0.3671,-0.54924 -3.2583,-5.17204 -9.316,-11.90026 -6.7002,-7.41479 -22.0739,-20.64239 -23.1294,-19.8643 -3.809,2.88353 -17.5306,13.95993 -22.3492,18.03349 -3.4419,2.83775 -6.5167,5.44666 -6.9297,5.76705 -0.5507,0.4577 -2.4781,-0.32039 -10.5092,-4.39395 -7.0214,-3.47854 -11.3352,-5.30935 -14.9147,-6.36206 -2.7535,-0.82387 -5.507,-1.46465 -6.0577,-1.46465 -1.1473,0 -1.1473,0.13731 -2.2487,-11.67142 -0.7802,-8.74212 -2.9371,-27.82832 -3.1207,-28.0114 -0.3671,-0.36616 -5.7823,-1.05271 -11.5646,-1.46465 -5.966,-0.4577 -17.0717,-0.54924 -20.8348,-0.18308 z m 20.8806,95.84293 c 9.9585,1.64773 19.5958,6.91131 27.9939,15.24149 8.2146,8.14711 13.2627,17.11808 15.3737,27.50793 4.7728,22.9309 -4.5432,45.67872 -23.8636,58.40285 -8.8112,5.81283 -17.347,8.51327 -28.2693,8.97097 -10.1879,0.45771 -17.8059,-1.09848 -26.5712,-5.35512 -10.9681,-5.35512 -19.2286,-13.41068 -25.0568,-24.44132 -4.4056,-8.37595 -6.1495,-15.69919 -6.1036,-26.13481 0.046,-12.86145 3.5336,-23.20553 11.1975,-33.0919 9.7291,-12.58682 22.9458,-20.41354 36.4839,-21.55779 5.0939,-0.41194 15.0983,-0.18309 18.8155,0.4577 z"
