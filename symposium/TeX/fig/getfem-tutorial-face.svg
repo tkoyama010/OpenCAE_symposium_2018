@@ -86,6 +86,48 @@
          style="stop-color:#eee;stop-opacity:1"
          offset="1" />
     </linearGradient>
+    <linearGradient
+       gradientTransform="rotate(-90,23.999998,24)"
+       gradientUnits="userSpaceOnUse"
+       x2="47"
+       x1="1"
+       id="linearGradient3764-51">
+      <stop
+         id="stop2"
+         style="stop-color:#7ca339;stop-opacity:1" />
+      <stop
+         id="stop4"
+         style="stop-color:#87b23e;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(0,-0.2,0.2,0,36.901694,24.738983)"
+       gradientUnits="userSpaceOnUse"
+       x2="47"
+       x1="1"
+       id="linearGradient3764-7">
+      <stop
+         id="stop2-1"
+         style="stop-color:#7ca339;stop-opacity:1" />
+      <stop
+         id="stop4-6"
+         style="stop-color:#87b23e;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(0,-0.2,0.2,0,18.99661,28.833898)"
+       gradientUnits="userSpaceOnUse"
+       x2="47"
+       x1="1"
+       id="linearGradient3764-7-7">
+      <stop
+         id="stop2-1-0"
+         style="stop-color:#7ca339;stop-opacity:1" />
+      <stop
+         id="stop4-6-3"
+         style="stop-color:#87b23e;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -103,7 +145,7 @@
      units="mm"
      inkscape:zoom="0.31189427"
      inkscape:cx="1494.425"
-     inkscape:cy="1076.8916"
+     inkscape:cy="1205.1402"
      inkscape:window-x="0"
      inkscape:window-y="-1"
      inkscape:window-maximized="1"
@@ -117,37 +159,34 @@
        sodipodi:role="line"
        x="559.57422"
        y="108.85954"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:80px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
-       id="tspan29">GetFEM++チュートリアル</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
+       id="tspan44"><tspan
+         id="tspan203"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:80px;line-height:1.25;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75">GetFEM++チュートリアル</tspan></tspan><tspan
        sodipodi:role="line"
        x="559.57422"
        y="200.97954"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
-       id="tspan44">リリース5.3</tspan><tspan
-       sodipodi:role="line"
-       x="559.57422"
-       y="290.97955"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
        id="tspan625">C++/Python/Scilab/Matlab</tspan><tspan
        sodipodi:role="line"
        x="559.57422"
-       y="380.97955"
+       y="290.97955"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
        id="tspan36">で学ぶ物理シュミレーション</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72px;line-height:1.25;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.75"
-     x="1132.5634"
-     y="1454.7865"
+     x="1125.3494"
+     y="1231.153"
      id="text45"><tspan
        sodipodi:role="line"
        id="tspan43"
-       x="1132.5634"
-       y="1454.7865"
+       x="1125.3494"
+       y="1231.153"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P Bold';text-align:end;text-anchor:end;fill:#000000;stroke-width:0.75">Yves Renard, Julien Pommier, Konstantinos Poulios 著</tspan><tspan
        sodipodi:role="line"
-       x="1132.5634"
-       y="1544.7865"
+       x="1125.3494"
+       y="1321.153"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:0;font-family:'Migu 1P';-inkscape-font-specification:'Migu 1P Bold';text-align:end;text-anchor:end;fill:#000000;stroke-width:0.75"
        id="tspan47">Tetsuo Koyama 訳</tspan></text>
   <flowRoot
@@ -162,7 +201,7 @@
          y="91.26001" /></flowRegion><flowPara
        id="flowPara39" /></flowRoot>  <g
      id="g206"
-     transform="matrix(7.5000002,0,0,7.5000002,753.98595,465.94266)">
+     transform="matrix(7.5000002,0,0,7.5000002,749.17663,316.85367)">
     <path
        id="path164"
        d="m 36.31,5 c 5.859,4.062 9.688,10.831 9.688,18.5 0,12.426 -10.07,22.5 -22.5,22.5 -7.669,0 -14.438,-3.828 -18.5,-9.688 1.037,1.822 2.306,3.499 3.781,4.969 4.085,3.712 9.514,5.969 15.469,5.969 12.703,0 23,-10.298 23,-23 0,-5.954 -2.256,-11.384 -5.969,-15.469 C 39.81,7.306 38.132,6.037 36.31,5 Z m 4.969,3.781 c 3.854,4.113 6.219,9.637 6.219,15.719 0,12.703 -10.297,23 -23,23 -6.081,0 -11.606,-2.364 -15.719,-6.219 4.16,4.144 9.883,6.719 16.219,6.719 12.703,0 23,-10.298 23,-23 0,-6.335 -2.575,-12.06 -6.719,-16.219 z"
@@ -221,7 +260,7 @@
   </g>
   <g
      id="g377"
-     transform="matrix(7.5000002,0,0,7.5000002,87.894823,990.15878)">
+     transform="matrix(7.5000002,0,0,7.5000002,83.085501,809.8092)">
     <g
        id="g290">
       <path
@@ -376,7 +415,7 @@
   </g>
   <g
      id="g483"
-     transform="matrix(7.8048449,0,0,7.4052935,749.48183,988.46754)">
+     transform="matrix(7.8048449,0,0,7.4052935,744.67251,822.54592)">
     <g
        id="g435">
       <path
@@ -444,7 +483,7 @@
   </g>
   <g
      id="g619"
-     transform="matrix(7.5000002,0,0,7.5000002,87.715166,466.07549)">
+     transform="matrix(7.5000002,0,0,7.5000002,82.905844,316.9865)">
     <g
        id="g553">
       <path
@@ -533,4 +572,127 @@
          inkscape:connector-curvature="0" />
     </g>
   </g>
+  <g
+     id="g201"
+     transform="matrix(7.5000002,0,0,7.5000002,411.88626,576.63865)">
+    <g
+       id="g15">
+      <path
+         id="path9"
+         style="opacity:0.05"
+         d="m 36.31,5 c 5.859,4.062 9.688,10.831 9.688,18.5 0,12.426 -10.07,22.5 -22.5,22.5 -7.669,0 -14.438,-3.828 -18.5,-9.688 1.037,1.822 2.306,3.499 3.781,4.969 4.085,3.712 9.514,5.969 15.469,5.969 12.703,0 23,-10.298 23,-23 0,-5.954 -2.256,-11.384 -5.969,-15.469 C 39.81,7.306 38.132,6.037 36.31,5 Z m 4.969,3.781 c 3.854,4.113 6.219,9.637 6.219,15.719 0,12.703 -10.297,23 -23,23 -6.081,0 -11.606,-2.364 -15.719,-6.219 4.16,4.144 9.883,6.719 16.219,6.719 12.703,0 23,-10.298 23,-23 0,-6.335 -2.575,-12.06 -6.719,-16.219 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path11"
+         style="opacity:0.1"
+         d="m 41.28,8.781 c 3.712,4.085 5.969,9.514 5.969,15.469 0,12.703 -10.297,23 -23,23 -5.954,0 -11.384,-2.256 -15.469,-5.969 4.113,3.854 9.637,6.219 15.719,6.219 12.703,0 23,-10.298 23,-23 0,-6.081 -2.364,-11.606 -6.219,-15.719 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path13"
+         style="opacity:0.2"
+         d="M 31.25,2.375 C 39.865,5.529 46,13.792 46,23.505 c 0,12.426 -10.07,22.5 -22.5,22.5 -9.708,0 -17.971,-6.135 -21.12,-14.75 a 23,23 0 0 0 44.875,-7 23,23 0 0 0 -16,-21.875 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g19">
+      <path
+         id="path17"
+         style="fill:url(#linearGradient3764-51);fill-opacity:1"
+         d="M 24,1 C 36.703,1 47,11.297 47,24 47,36.703 36.703,47 24,47 11.297,47 1,36.703 1,24 1,11.297 11.297,1 24,1 Z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g27">
+      <g
+         id="g25">
+        <g
+           id="g23"
+           transform="translate(1,1)">
+          <g
+             id="g21"
+             style="opacity:0.1">
+            <!-- color: #87b23e -->
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g31">
+      <g
+         id="g29">
+        <!-- color: #87b23e -->
+      </g>
+    </g>
+    <g
+       id="g35">
+      <path
+         id="path33"
+         style="opacity:0.1"
+         d="m 40.03,7.531 c 3.712,4.084 5.969,9.514 5.969,15.469 0,12.703 -10.297,23 -23,23 C 17.045,46 11.615,43.744 7.53,40.031 11.708,44.322 17.54,47 23.999,47 c 12.703,0 23,-10.298 23,-23 0,-6.462 -2.677,-12.291 -6.969,-16.469 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <rect
+       y="0.81355852"
+       x="18.61017"
+       height="22.372881"
+       width="10.576271"
+       id="rect49"
+       style="fill:#ffffff;stroke:#376400;stroke-opacity:1" />
+    <rect
+       transform="rotate(-59.631175)"
+       y="33.156143"
+       x="-13.385621"
+       height="22.372881"
+       width="10.576271"
+       id="rect49-1"
+       style="fill:#ffffff;stroke:#376400;stroke-opacity:1" />
+    <rect
+       transform="rotate(58.973485)"
+       y="-7.7720933"
+       x="27.06461"
+       height="22.372881"
+       width="10.576271"
+       id="rect49-1-6"
+       style="fill:#ffffff;stroke:#376400;stroke-opacity:1" />
+    <ellipse
+       ry="8.5423727"
+       rx="8.3389826"
+       cy="24.033897"
+       cx="23.796614"
+       id="path100"
+       style="fill:#ffffff;stroke:#376400;stroke-opacity:1" />
+    <path
+       id="path17-7"
+       style="fill:url(#linearGradient3764-7-7);fill-opacity:1;stroke:none;stroke-width:0.2;stroke-opacity:1"
+       d="m 23.796611,19.433898 c 2.5406,0 4.6,2.0594 4.6,4.6 0,2.5406 -2.0594,4.6 -4.6,4.6 -2.5406,0 -4.6,-2.0594 -4.6,-4.6 0,-2.5406 2.0594,-4.6 4.6,-4.6 z"
+       inkscape:connector-curvature="0" />
+  </g>
+  <rect
+     style="fill:#ff2a2a;stroke:#376400;stroke-width:0.69479233;stroke-opacity:1"
+     id="rect205"
+     width="1197.5764"
+     height="343.92175"
+     x="-2.4322634"
+     y="1339.8854" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:72px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="76.949158"
+     y="1424.0762"
+     id="text209"><tspan
+       sodipodi:role="line"
+       id="tspan207"
+       x="76.949158"
+       y="1424.0762"
+       style="stroke-width:0.75px;fill:#ffffff">Pythonで手軽に使える!!!</tspan><tspan
+       sodipodi:role="line"
+       x="76.949158"
+       y="1519.2634"
+       style="stroke-width:0.75px;fill:#ffffff"
+       id="tspan211">AI時代の物理シュミレーション</tspan><tspan
+       sodipodi:role="line"
+       x="76.949158"
+       y="1614.4506"
+       style="stroke-width:0.75px;fill:#ffffff"
+       id="tspan213">ライブラリ</tspan></text>
 </svg>
