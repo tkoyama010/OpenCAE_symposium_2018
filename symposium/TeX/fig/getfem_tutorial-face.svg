@@ -13,8 +13,11 @@
    viewBox="0 0 1190.5512 1683.7796"
    preserveAspectRatio="xMidYMid meet"
    id="svg30"
-   sodipodi:docname="getfem-tutorial-face.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   sodipodi:docname="getfem_tutorial-face.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:export-filename="E:\tkoyama010_OpenCAE_journal_and_symposium\symposium\TeX\fig\getfem_tutorial-face.png"
+   inkscape:export-xdpi="960.03998"
+   inkscape:export-ydpi="960.03998">
   <metadata
      id="metadata36">
     <rdf:RDF>
@@ -208,7 +211,7 @@
      showgrid="false"
      units="mm"
      inkscape:zoom="0.31189427"
-     inkscape:cx="1494.425"
+     inkscape:cx="960.59025"
      inkscape:cy="995.16205"
      inkscape:window-x="0"
      inkscape:window-y="-1"
